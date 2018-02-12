@@ -1,0 +1,476 @@
+name: higrow
+type: app
+version: "1.0"
+platform: esp32
+platforms:
+- esp32
+author: Luca Fabbri <luca@higrow.tech>
+description: HiGrow Plant Sensor
+sources:
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/deps_init.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c
+includes:
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include
+filesystem:
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs/ca.pem
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_bitbang.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_config.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_events.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_gpio.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_grove.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_http.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_log.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_net.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_sys.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_timer.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_uart.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/init.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_dataview.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_file.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_math.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs/api_adc.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs/api_dht.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs/api_rpc.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs/api_wifi.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_arch_uart.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_esp32.js
+- /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs/init.js
+modules:
+- origin: https://github.com/cesanta/mjs
+  location: https://github.com/cesanta/mjs
+  name: mjs_module
+  suffixtpl: ""
+config_schema:
+- - sys.esp32_adc_vref
+  - i
+  - 0
+  - title: ADC Vref, in mV
+- - bt
+  - o
+  - title: Bluetooth settings
+- - bt.enable
+  - b
+  - true
+  - title: Enable BT
+- - bt.dev_name
+  - s
+  - ""
+  - title: Device name; defaults to device.id
+- - bt.adv_enable
+  - b
+  - true
+  - title: Advertise services
+- - bt.scan_rsp_data_hex
+  - s
+  - ""
+  - title: Scan response data, hex-encoded
+- - bt.keep_enabled
+  - b
+  - false
+  - title: By default, BT will be disabled once WiFi is configured and connects. Set
+      this to true to keep BT enabled.
+- - bt.allow_pairing
+  - b
+  - true
+  - title: Allow pairing/bonding with other devices
+- - bt.max_paired_devices
+  - i
+  - -1
+  - title: Max number of paired devices; -1 - no limit
+- - bt.random_address
+  - b
+  - true
+  - title: Use random BT address
+- - bt.gatts
+  - o
+  - title: GATTS settings
+- - bt.gatts.min_sec_level
+  - i
+  - 0
+  - title: 0 - no auth required, 1 - encryption reqd, 2 - encryption + MITM reqd
+- - bt.gatts.require_pairing
+  - b
+  - false
+  - title: Require device to be paired before accessing services
+- - bt.config_svc_enable
+  - b
+  - true
+  - title: Enable the config service
+- - mjs
+  - o
+  - title: mJS settings
+- - mjs.generate_jsc
+  - b
+  - true
+  - title: Generate .jsc file when executing any .js file
+- - rpc
+  - o
+  - title: RPC settings
+- - rpc.enable
+  - b
+  - true
+  - title: Enable RPC
+- - rpc.max_frame_size
+  - i
+  - 4096
+  - title: Max Frame Size
+- - rpc.max_queue_length
+  - i
+  - 25
+  - title: Max Queue Length
+- - rpc.default_out_channel_idle_close_timeout
+  - i
+  - 10
+  - title: Default idle close timeout for outbound channels
+- - rpc.acl_file
+  - s
+  - title: File with RPC ACL JSON
+- - rpc.auth_domain
+  - s
+  - title: Realm to use for digest authentication
+- - rpc.auth_file
+  - s
+  - title: File with user credentials in the htdigest format
+- - rpc.ws
+  - o
+  - title: RPC over WebSocket settings
+- - rpc.ws.enable
+  - b
+  - true
+  - title: Enable RPC over WebSocket
+- - rpc.ws.server_address
+  - s
+  - ""
+  - title: Cloud server address
+- - rpc.ws.reconnect_interval_min
+  - i
+  - 1
+  - title: Minimal reconnect interval
+- - rpc.ws.reconnect_interval_max
+  - i
+  - 60
+  - title: Maximal reconnect interval
+- - rpc.ws.ssl_server_name
+  - s
+  - title: TLS Server Name
+- - rpc.ws.ssl_ca_file
+  - s
+  - title: TLS CA file
+- - rpc.ws.ssl_client_cert_file
+  - s
+  - title: TLS client cert file
+- - rpc.uart
+  - o
+  - title: RPC-over-UART settings
+- - rpc.uart.uart_no
+  - i
+  - title: UART number (-1 to disable)
+- - rpc.uart.baud_rate
+  - i
+  - 115200
+  - title: Baud rate
+- - rpc.uart.fc_type
+  - i
+  - 2
+  - title: 'Flow control: 0 - none, 1 - CTS/RTS, 2 - XON/XOFF'
+- - rpc.uart.wait_for_start_frame
+  - b
+  - true
+  - title: Wait for an incoming frame before using the channel
+- - wifi
+  - o
+  - hide: true
+- - wifi.sta
+  - o
+  - title: WiFi Station
+- - wifi.sta.enable
+  - b
+  - title: Connect to existing WiFi
+- - wifi.sta.ssid
+  - s
+  - title: SSID
+- - wifi.sta.pass
+  - s
+  - title: Password
+    type: password
+- - wifi.sta.user
+  - s
+  - title: Username for WPA-PEAP mode
+- - wifi.sta.anon_identity
+  - s
+  - title: Anonymous identity for WPA mode
+- - wifi.sta.cert
+  - s
+  - title: Client certificate for WPA-TTLS mode
+- - wifi.sta.key
+  - s
+  - title: Client key for WPA-TTLS mode
+- - wifi.sta.ca_cert
+  - s
+  - title: CA certificate for WPA-enterprise mode
+- - wifi.sta.ip
+  - s
+  - title: Static IP Address
+- - wifi.sta.netmask
+  - s
+  - title: Static Netmask
+- - wifi.sta.gw
+  - s
+  - title: Static Default Gateway
+- - wifi.sta.nameserver
+  - s
+  - title: DNS Server
+- - wifi.sta.dhcp_hostname
+  - s
+  - title: Host name to include in DHCP requests
+- - wifi.ap
+  - o
+  - title: WiFi Access Point
+- - wifi.ap.enable
+  - b
+  - true
+  - title: Enable
+- - wifi.ap.ssid
+  - s
+  - Mongoose_??????
+  - title: SSID
+- - wifi.ap.pass
+  - s
+  - Mongoose
+  - title: Password
+    type: password
+- - wifi.ap.hidden
+  - b
+  - false
+  - title: Hide SSID
+- - wifi.ap.channel
+  - i
+  - 6
+  - title: Channel
+- - wifi.ap.max_connections
+  - i
+  - 10
+  - title: Max connections
+- - wifi.ap.ip
+  - s
+  - 192.168.4.1
+  - title: IP address
+- - wifi.ap.netmask
+  - s
+  - 255.255.255.0
+  - title: Network Mask
+- - wifi.ap.gw
+  - s
+  - 192.168.4.1
+  - title: Default Gateway
+- - wifi.ap.dhcp_start
+  - s
+  - 192.168.4.2
+  - title: DHCP Start Address
+- - wifi.ap.dhcp_end
+  - s
+  - 192.168.4.100
+  - title: DHCP End Address
+- - wifi.ap.trigger_on_gpio
+  - i
+  - -1
+  - title: Trigger AP on low GPIO
+- - wifi.ap.disable_after
+  - i
+  - 0
+  - title: If > 0, will disable itself after the specified number of seconds
+- - wifi.ap.hostname
+  - s
+  - ""
+  - title: If not empty, DNS server will resolve given host name to the IP address
+      of AP
+- - wifi.ap.keep_enabled
+  - b
+  - true
+  - title: Keep AP enabled when station is on
+- - higrow
+  - o
+  - title: HiGrow Sensor
+- - higrow.deviceId
+  - s
+  - ""
+  - title: DeviceId
+- - higrow.temperature
+  - d
+  - 0
+  - title: Temperature
+- - higrow.humidity
+  - d
+  - 0
+  - title: Humidity
+- - higrow.light
+  - i
+  - 0
+  - title: Light
+- - higrow.water
+  - i
+  - 0
+  - title: Water
+- - higrow.connected
+  - b
+  - false
+  - title: Connected
+- - wifi.sta.enable
+  - false
+- - wifi.sta.ssid
+  - ""
+- - wifi.sta.pass
+  - ""
+- - wifi.ap.enable
+  - false
+- - device.id
+  - Higrow_??????
+- - bt.dev_name
+  - Higrow of
+build_vars:
+  ESP_IDF_EXTRA_COMPONENTS: ' bt'
+  ESP_IDF_SDKCONFIG_OPTS: |2-
+     CONFIG_BT_ENABLED=y CONFIG_BLUEDROID_ENABLED=y CONFIG_BTC_TASK_STACK_SIZE=6144 CONFIG_BLUEDROID_MEM_DEBUG= CONFIG_CLASSIC_BT_ENABLED= CONFIG_BT_DRAM_RELEASE=y CONFIG_GATTS_ENABLE=y CONFIG_GATTC_ENABLE=y CONFIG_BLE_SMP_ENABLE=y CONFIG_BT_STACK_NO_LOG= CONFIG_BT_ACL_CONNECTIONS=4 CONFIG_BTDM_CONTROLLER_RUN_CPU=0 CONFIG_SMP_ENABLE=y CONFIG_BT_RESERVE_DRAM=0x10000
+     CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY=500
+  MGOS_HAVE_ADC: "1"
+  MGOS_HAVE_BT_COMMON: "1"
+  MGOS_HAVE_BT_SERVICE_CONFIG: "1"
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_DHT: "1"
+  MGOS_HAVE_MJS: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
+cdefs:
+  MG_ENABLE_DNS_SERVER: "1"
+  MGOS_ENABLE_RPC_CHANNEL_HTTP: "1"
+  MGOS_ENABLE_RPC_CHANNEL_WS: "1"
+  MGOS_ENABLE_SYS_SERVICE: "1"
+  MGOS_HAVE_ADC: "1"
+  MGOS_HAVE_BT_COMMON: "1"
+  MGOS_HAVE_BT_SERVICE_CONFIG: "1"
+  MGOS_HAVE_CA_BUNDLE: "1"
+  MGOS_HAVE_DHT: "1"
+  MGOS_HAVE_MJS: "1"
+  MGOS_HAVE_RPC_COMMON: "1"
+  MGOS_HAVE_RPC_SERVICE_CONFIG: "1"
+  MGOS_HAVE_RPC_SERVICE_FS: "1"
+  MGOS_HAVE_RPC_UART: "1"
+  MGOS_HAVE_WIFI: "1"
+  MGOS_WIFI_ENABLE_AP_STA: "1"
+tags:
+- js
+- hw
+- higrow
+- esp32
+- ble
+- plant
+libs_version: "1.26"
+modules_version: "1.26"
+mongoose_os_version: "1.26"
+manifest_version: 2017-05-18
+libs_handled:
+- name: adc
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c
+- name: bt-common
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c
+- name: bt-service-config
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config
+  deps:
+  - bt-common
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c
+- name: ca-bundle
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c
+- name: dht
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c
+- name: mjs
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c
+- name: rpc-common
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common
+  deps:
+  - http-server
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c
+- name: rpc-service-config
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config
+  deps:
+  - rpc-common
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c
+- name: rpc-service-fs
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs
+  deps:
+  - rpc-common
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c
+- name: rpc-uart
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart
+  deps:
+  - rpc-common
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c
+- name: wifi
+  path: /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi
+  sources:
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c
+  - /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c

@@ -1,0 +1,906 @@
+Handling lib "bt-service-config"...
+Handling lib "ca-bundle"...
+Handling lib "rpc-service-fs"...
+Handling lib "rpc-service-config"...
+Handling lib "mjs"...
+Handling lib "dht"...
+Handling lib "adc"...
+Handling lib "wifi"...
+Handling lib "rpc-uart"...
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs" does not exist, cloning...
+
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc" does not exist, cloning...
+
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart" does not exist, cloning...
+
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi" does not exist, cloning...
+
+Hash is updated: "" -> "b44d6332b79f618864ab777a488849116a37ac8d"
+Hash is updated: "" -> "44f8e5ee2abcef9d7ad923c29648bca868f82d74"
+Hash is updated: "" -> "51a0002c509cbff1ff916a9fcca54228d284d429"
+Hash is updated: "" -> "8dc259bee17a69faba0778dc94dc3342dff1a442"
+Hash is updated: "" -> "7293af57f0bb828e55b13fc08fc20fc353dd7db6"
+Hash is updated: "" -> "86d280ae9fb3dd66192c1ac54753b9c7318e5fc7"
+Hash is updated: "" -> "fcb2a816d57a30da3a558ee07e1e8c39dde6d995"
+Hash is updated: "" -> "d8e5db886afcb898553065c6a3a60d70f53ddfb6"
+Hash is updated: "" -> "316eb2684a3c4f899f47eb5b7a84bac2b1e0e067"
+Falling back to sources for "wifi" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/wifi/releases/download/1.26/libwifi-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi"
+Falling back to sources for "mjs" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/mjs/releases/download/1.26/libmjs-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs"
+Successfully fetched prebuilt binary for "ca-bundle" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/lib/esp32/libca-bundle.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle"
+Successfully fetched prebuilt binary for "adc" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/lib/esp32/libadc.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc"
+Successfully fetched prebuilt binary for "dht" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/lib/esp32/libdht.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht"
+Successfully fetched prebuilt binary for "bt-service-config" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/lib/esp32/libbt-service-config.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config"
+Handling lib "bt-common"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common" does not exist, cloning...
+
+Successfully fetched prebuilt binary for "rpc-service-config" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/lib/esp32/librpc-service-config.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config"
+Handling lib "rpc-common"...
+The --lib flag was not given for it, checking repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common" does not exist, cloning...
+
+Successfully fetched prebuilt binary for "rpc-uart" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/lib/esp32/librpc-uart.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart"
+Lib "rpc-common" is already handled, skipping
+Successfully fetched prebuilt binary for "rpc-service-fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/lib/esp32/librpc-service-fs.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs"
+Lib "rpc-common" is already handled, skipping
+Hash is updated: "" -> "f32bba7da7c6e7da1865c63ea430bd151ceafe78"
+Hash is updated: "" -> "194c48b99987bfb023abf1ae46df0554a428f22f"
+Falling back to sources for "rpc-common" (failed to fetch prebuilt binary: got 404 status code when accessed https://github.com/mongoose-os-libs/rpc-common/releases/download/1.26/librpc-common-esp32.a)
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common"
+Lib "http-server" is optional, skipping
+Successfully fetched prebuilt binary for "bt-common" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/lib/esp32/libbt-common.a"
+Prepared local dir: "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common"
+The flag --module is not given for the module "mjs_module", going to use the repository
+Repository "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module" does not exist, cloning...
+
+The flag --repo is not given, going to use mongoose-os repository
+Sources: [/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/deps_init.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c]
+Include dirs: [/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include]
+Binary libs: []
+Building...
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775" to "/app"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os" to "/mongoose-os"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs"
+mount from "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen" to "/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen"
+Docker arguments: run --name mos_build_2018-02-12T19-58-11-00_6696749487452545988 --rm -i -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775:/app -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32 -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mongoose-os:/mongoose-os -v /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src:/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src --user 0:0 docker.cesanta.com/esp32-build:3.0-rc1-r3 /bin/bash -c nice make '-j' '16' '-C' '/app' '-f' '/mongoose-os/fw/platforms/esp32/Makefile.build' 'all' 'MGOS_HAVE_RPC_UART=1' 'MGOS_HAVE_ADC=1' 'MGOS_HAVE_DHT=1' 'FFI_SYMBOLS=' 'APP=higrow' 'MGOS_WIFI_ENABLE_AP_STA=1' 'ESP_IDF_EXTRA_COMPONENTS= bt' 'MGOS_HAVE_MJS=1' 'MGOS_HAVE_CA_BUNDLE=1' 'GEN_DIR=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen' 'APP_FS_FILES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/fs/ca.pem /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_bitbang.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_config.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_events.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_gpio.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_grove.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_http.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_log.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_net.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_sys.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_timer.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/api_uart.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/fs/init.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_dataview.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_file.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs/lib/api_math.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/mjs_fs/api_adc.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/mjs_fs/api_dht.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/mjs_fs/api_rpc.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/mjs_fs/api_wifi.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_arch_uart.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/fs/api_esp32.js /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/fs/init.js' 'FW_DIR=build/fw' 'ESP_IDF_SDKCONFIG_OPTS= CONFIG_BT_ENABLED=y CONFIG_BLUEDROID_ENABLED=y CONFIG_BTC_TASK_STACK_SIZE=6144 CONFIG_BLUEDROID_MEM_DEBUG= CONFIG_CLASSIC_BT_ENABLED= CONFIG_BT_DRAM_RELEASE=y CONFIG_GATTS_ENABLE=y CONFIG_GATTC_ENABLE=y CONFIG_BLE_SMP_ENABLE=y CONFIG_BT_STACK_NO_LOG= CONFIG_BT_ACL_CONNECTIONS=4 CONFIG_BTDM_CONTROLLER_RUN_CPU=0 CONFIG_SMP_ENABLE=y CONFIG_BT_RESERVE_DRAM=0x10000  CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY=500' 'MGOS_HAVE_BT_SERVICE_CONFIG=1' 'APP_SOURCES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/deps_init.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/esp32/src/esp32_adc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/mgos_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gap.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gattc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/src/esp32/esp32_bt_gatts.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-service-config/src/esp32/esp32_bt_svc_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/ca-bundle/src/mgos_ca_bundle.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/src/mgos_dht.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/src/mos_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/modules/mjs_module/mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/esp32/src/esp32_mjs.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_http.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mg_rpc/mg_rpc_channel_ws.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/src/mgos_rpc.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/src/mgos_service_config.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/src/mgos_service_filesystem.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/src/mgos_rpc_channel_uart.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mgos_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/src/mjs_wifi.c /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/src/esp32_wifi.c' 'APP_VERSION=1.0' 'APP_CONF_SCHEMA=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mos_conf_schema.yml' 'MANIFEST_FINAL=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mos_final.yml' 'MGOS_PATH=/mongoose-os' 'PLATFORM=esp32' 'MGOS_HAVE_BT_COMMON=1' 'MGOS_HAVE_WIFI=1' 'APP_INCLUDES=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/adc/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/bt-common/include/esp32 /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/dht/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/mjs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include/mg_rpc /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-common/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-config/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-service-fs/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/rpc-uart/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/include /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/libs/wifi/esp32/include' 'MGOS_HAVE_RPC_SERVICE_FS=1' 'FS_STAGING_DIR=build/fs' 'APP_BIN_LIBS=' 'APP_CFLAGS=-DMG_ENABLE_DNS_SERVER=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_ADC=1 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1 -DMGOS_HAVE_DHT=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_BT_SERVICE_CONFIG=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_SERVICE_FS=1' 'APP_CXXFLAGS=-DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_HAVE_RPC_SERVICE_FS=1 -DMG_ENABLE_DNS_SERVER=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_RPC_UART=1 -DMGOS_HAVE_CA_BUNDLE=1 -DMGOS_HAVE_ADC=1 -DMGOS_HAVE_BT_COMMON=1 -DMGOS_HAVE_MJS=1 -DMGOS_HAVE_RPC_SERVICE_CONFIG=1 -DMGOS_HAVE_WIFI=1 -DMGOS_HAVE_DHT=1 -DMGOS_WIFI_ENABLE_AP_STA=1 -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_RPC_CHANNEL_WS=1 -DMGOS_HAVE_BT_SERVICE_CONFIG=1' 'MGOS_HAVE_RPC_COMMON=1' 'MGOS_HAVE_RPC_SERVICE_CONFIG=1' 'BUILD_DIR=/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs'
+make: Entering directory '/app'
+including /opt/Espressif/esp-idf/components/bootloader/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esp32/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/partition_table/Makefile.projbuild...
+/mongoose-os/fw/platforms/esp32/Makefile.build:181: warning: overriding recipe for target 'defconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:71: warning: ignoring old recipe for target 'defconfig'
+/mongoose-os/fw/platforms/esp32/Makefile.build:181: warning: overriding recipe for target 'menuconfig'
+/opt/Espressif/esp-idf/make/project_config.mk:58: warning: ignoring old recipe for target 'menuconfig'
+/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/sdkconfig:71:warning: override: reassigning to symbol ESP32_DEEP_SLEEP_WAKEUP_DELAY
+#
+# configuration written to /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/sdkconfig
+#
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/partition_table'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/partition_table'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esptool_py'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esptool_py'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace'
+including /opt/Espressif/esp-idf/components/bootloader/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esp32/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/partition_table/Makefile.projbuild...
+Building partitions from /mongoose-os/fw/platforms/esp32/src/partitions_mgos.csv...
+make[1]: Entering directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update/esp_ota_ops.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx'
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx/cxx_guards.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/host_file_io.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/app_trace.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal/esp_adc_cal_lookup_tables.o
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx/cxx_exception_stubs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/spi_common.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/app_trace_util.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/esp_ota_select.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/ringbuf.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/emac_dev.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/heap_caps_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/library/xmltok_ns.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/panic.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/library/xmltok.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/library/xmlparse.o
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/efuse.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/bootloader_flash.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal/esp_adc_cal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/secure_boot.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/emac_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/gcov/gcov_rtio.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/bootloader_clock.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc'
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main/component_project_vars.mk
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc/component_project_vars.mk
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/secure_boot_signatures.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/heap_caps.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal/libesp_adc_cal.a
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc'
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update/libapp_update.a
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/multi_heap.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc'
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc/component_project_vars.mk
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/heap_trace.o
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update'
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log/log.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash'
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/libapp_trace.a
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log'
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash/component_project_vars.mk
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log/component_project_vars.mk
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/flash_partitions.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/stack_check.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/event_default_handlers.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_intr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/queue.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/spi_master.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support'
+Building component project variables list /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support/component_project_vars.mk
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/esp_image_format.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/esptool_py'
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/esptool_py'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/croutine.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/task_wdt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/smartconfig.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/list.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_init.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log/liblog.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/sleep_modes.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/port.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/bootloader_sha.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/pppapi.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/libheap.a
+including /opt/Espressif/esp-idf/components/esptool_py/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader_support/Makefile.projbuild...
+including /opt/Espressif/esp-idf/components/bootloader/subproject/main/Makefile.projbuild...
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/spiram.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/cpu_start.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/lib_printf.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/eth_phy/phy_common.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/flash_encrypt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/eth_phy/phy_lan8720.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/eth_phy/phy_tlk110.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/event_groups.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/netdb.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/tasks.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/gdbstub.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/api_lib.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/src/bootloader_random.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/wifi_internal.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx/libcxx.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc'
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/libethernet.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/netifapi.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/crosscore_int.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/phy_init.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc/micro-ecc/uECC.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/time.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sigmadelta.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/libbootloader_support.a
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/tcpip.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/timers.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/FreeRTOS-openocd.o
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_overlay_os_hook.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/pm_trace.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/wifi_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/esp_timer_esp32.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/uart.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/spiram_psram.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sdspi_transaction.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_intr_asm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/reent_init.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_context.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/clk.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/freertos_hooks.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/syscalls.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_vectors.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/syscall_table.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/locks.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/netbuf.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/api_msg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/err.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/api/sockets.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/apps/dhcpserver.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/xtensa_vector_defaults.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/fast_crypto_ops.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/portasm.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/libnewlib.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/apps/sntp/sntp.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash'
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_types.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/pthread_local_storage.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/pthread_cond_var.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/cache_err_int.o
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc'
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/pthread.o
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_page.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/ipc.o
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_item_hash_list.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/apps/ping/ping.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/libfreertos.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/intr_alloc.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc/libmicro-ecc.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/i2s.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/rtc_pm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/ets_timer_legacy.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/apps/ping/esp_ping.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/libpthread.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/flash_mmap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/cpu_util.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support'
+make[2]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/partition.o
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_pagemanager.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/core_dump.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/soc_memory_layout.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/mem.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/inet_chksum.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/rtc_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/spi_flash_rom_patch.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/cache_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/pm_locks.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/rtc_sleep.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc'
+Target 'component-bootloader_support-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/bootloader_support/libbootloader_support.a'
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_api.o
+CXX /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/src/nvs_storage.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/flash_ops.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/memp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/sys.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/event_loop.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/rtc_time.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc'
+Target 'component-log-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/log/liblog.a'
+Target 'component-spi_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/spi_flash/libspi_flash.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/esp32/rtc_clk.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/tcp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/dns.o
+make[2]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/library/xmlrole.o
+Target 'component-micro-ecc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/micro-ecc/libmicro-ecc.a'
+Target 'component-soc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/soc/libsoc.a'
+Target 'component-main-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader/main/libmain.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/hw_random.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/pm_esp32.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/esp_timer.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ip.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/periph_ctrl.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/libspi_flash.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/dport_access.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter/tcpip_adapter_lwip.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/restore.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/raw.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/system_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/brownout.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/int_wdt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/ledc.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/libsoc.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs/vfs_uart.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/tcp_in.o
+esptool.py v2.1
+make[1]: Leaving directory '/opt/Espressif/esp-idf/components/bootloader/subproject'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/pbuf.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-internal-enc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/hwcrypto/sha.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/library/xmltok_impl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/hwcrypto/aes.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/netif.o
+AS /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/dport_panic_highint_hdl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/stats.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module/eri.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sdspi_host.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs/vfs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module/trax.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/sha256-internal.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/libesp32.a
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/port/minicheck.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/md5-internal.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module/libxtensa-debug-module.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32'
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mgos_config.c
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/spiffs_gc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/spiffs_cache.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter/libtcpip_adapter.a
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/spiffs_nucleus.o
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/spiffs_check.o
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mgos_ro_vars.c
+CC esp32_nsleep100.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/spiffs_hydrogen.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/gpio.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/port/expat_element.o
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/ffi_exports.c
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/port/chardata.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-internal-dec.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/timer.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/sha1.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs/libvfs.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/timers.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/atca_command.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/libexpat.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat'
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls'
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls/libcs_mbedtls.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-unwrap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/def.o
+make[1]: Entering directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/udp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/tcp_out.o
+  MKDIR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/fw_temp
+CC mgos_debug.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/libnvs_flash.a
+CC mgos_net.o
+  MKDIR /app/build/fw
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/atca_cfgs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/atca_iface.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/atca_device.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/basic/atca_basic.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/crypto_internal-rsa.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/ip_frag.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/basic/atca_helpers.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/pcnt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/lib/host/atca_host.o
+CC mgos_bitbang.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sdspi_crc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/rmt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/mcpwm.o
+CC mgos_config_util.o
+CC mgos_core_dump.o
+CC mgos_dlsym.o
+CC mgos_event.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/des-internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/dhcp.o
+CC mgos_hal_freertos.o
+CC mgos_gpio.o
+CC mgos_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/ip4_addr.o
+CC mgos_mmap_esp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_api.o
+CC mgos_mongoose.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sdmmc_transaction.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/dh_group5.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/igmp.o
+CC mgos_sys_config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mgos_config.o
+CC mgos_ro_vars.o
+CC mgos_hw_timers.o
+CC mgos_system.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/crypto_internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/ip4.o
+CC mgos_time.o
+CC mgos_timers.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/autoip.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/libspiffs.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs'
+Target 'component-app_trace-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_trace/libapp_trace.a'
+Target 'component-app_update-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/app_update/libapp_update.a'
+Target 'component-bootloader_support-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bootloader_support/libbootloader_support.a'
+Target 'component-cxx-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cxx/libcxx.a'
+Target 'component-esp_adc_cal-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp_adc_cal/libesp_adc_cal.a'
+Target 'component-esp32-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/esp32/libesp32.a'
+Target 'component-ethernet-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ethernet/libethernet.a'
+Target 'component-expat-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/expat/libexpat.a'
+Target 'component-freertos-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/freertos/libfreertos.a'
+CC mgos_uart.o
+Target 'component-heap-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/heap/libheap.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-wrap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv4/icmp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/sha1-internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/md4-internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/ip6_frag.o
+CC mgos_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/dhcp6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/inet6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/spi_slave.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/sdmmc_host.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/dh_groups.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/ip6_addr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/i2c.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/ip6.o
+CC mgos_vfs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/nd6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/mld6.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/libcryptoauthlib.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib'
+Target 'component-log-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/log/liblog.a'
+Target 'component-micro-ecc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/micro-ecc/libmicro-ecc.a'
+Target 'component-newlib-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/newlib/libnewlib.a'
+Target 'component-nvs_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/nvs_flash/libnvs_flash.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/ethip6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/rtc_module.o
+CC mgos_vfs_dev.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/sha256.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/rc4.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/md5.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_sco.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/aes-cbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/core/ipv6/icmp6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_ci.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/sha1-pbkdf2.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/netif/slipif.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/netif/etharp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_pm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/bignum.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/crypto_internal-modexp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/netif/ethernet.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/netif/lowpan6.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/netif/ethernetif.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/crypto_internal-cipher.o
+CC mgos_vfs_dev_ram.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/port/freertos/sys_arch.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/port/netif/wlanif.o
+CC mgos_vfs_fs_spiffs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/dm/bta_dm_cfg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/crypto/ms_funcs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/port/netif/ethernetif.o
+CC esp32_debug.o
+CC esp32_crypto.o
+CC esp32_exc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/port/debug/lwip_debug.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/port/vfs_lwip.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gatt_common.o
+CC esp32_fs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gatts_api.o
+Target 'component-pthread-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/pthread/libpthread.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_cache.o
+CC esp32_vfs_dev_partition.o
+CC esp32_fs_crypt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/port/os_xtensa.o
+CC esp32_gpio.o
+CC esp32_hal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gatts_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_utils.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/liblwip.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip'
+CC esp32_hw_timers.o
+Target 'component-soc-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/soc/libsoc.a'
+CC esp32_main.o
+Target 'component-spi_flash-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spi_flash/libspi_flash.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-wrap.o
+Target 'component-tcpip_adapter-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/tcpip_adapter/libtcpip_adapter.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gatts_act.o
+CC esp32_mdns.o
+Target 'component-vfs-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/vfs/libvfs.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256-internal.o
+Target 'component-xtensa-debug-module-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/xtensa-debug-module/libxtensa-debug-module.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-cbc.o
+Target 'component-spiffs-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/spiffs/libspiffs.a'
+CC esp32_uart.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_ci.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gattc_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_sha256.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.o
+CC cs_crc32.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/gatt/bta_gatts_utils.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/libdriver.a
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-modexp.o
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.o
+Target 'component-cryptoauthlib-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cryptoauthlib/libcryptoauthlib.a'
+Target 'component-cs_mbedtls-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/cs_mbedtls/libcs_mbedtls.a'
+Target 'component-driver-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/driver/libdriver.a'
+Target 'component-lwip-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/lwip/liblwip.a'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_api.o
+CC cs_dbg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_le.o
+CC cs_file.o
+CC cs_rbuf.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_cfg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/hh/bta_hh_main.o
+CC frozen.o
+CC json_utils.o
+CC mongoose.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sdp/bta_sdp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sdp/bta_sdp_act.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/libwpa_supplicant.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant'
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sdp/bta_sdp_cfg.o
+CC deps_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sdp/bta_sdp_api.o
+CC esp32_adc.o
+CC mgos_bt.o
+CC mgos_bt_gap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_ssm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_cfg.o
+CC esp32_bt.o
+CC esp32_bt_gap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_ci.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_sbc.o
+CC esp32_bt_gattc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/av/bta_av_aact.o
+CC esp32_bt_gatts.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/ar/bta_ar.o
+Target 'component-wpa_supplicant-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/wpa_supplicant/libwpa_supplicant.a'
+CC esp32_bt_svc_config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sys/bta_sys_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sys/utl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/bta/sys/bta_sys_conn.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btcore/bdaddr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btif/bta_gatts_co.o
+CC mgos_ca_bundle.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btif/bta_dm_co.o
+CC mgos_dht.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btif/bta_gattc_co.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/device/interop.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/device/controller.o
+CC mos_mjs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/buffer_allocator.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/hci_hal_h4.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/hci_packet_parser.o
+CC mjs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/hci_layer.o
+CC esp32_mjs.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/packet_fragmenter.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/hci/hci_packet_factory.o
+CC mg_rpc.o
+CC mg_rpc_channel.o
+CC mg_rpc_channel_http.o
+CC mg_rpc_channel_ws.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/main/bte_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/main/bte_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/future.o
+CC mgos_rpc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/semaphore.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/hash_map.o
+CC mgos_service_config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/fixed_queue.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/list.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/mutex.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/osi.o
+CC mgos_service_filesystem.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/hash_functions.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/alarm.o
+CC mgos_rpc_channel_uart.o
+CC mgos_wifi.o
+CC mjs_wifi.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/buffer.o
+CC esp32_wifi.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/osi/allocator.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitstream-decode.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-sbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-oina.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/ffi_exports.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-dct8.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/dequant.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/alloc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-private.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/synthesis-8-generated.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/framing-sbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/oi_codec_version.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/bitalloc-sbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/external/sbc/decoder/srce/decoder-sbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_util.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_task.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_dev.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_ble_storage.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_storage.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_sm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_profile_queue.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_alarm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_manage.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_sec.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_config.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/core/btc_dm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_prf.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/esp/blufi/blufi_protocol.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_bt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/gap/btc_gap_ble.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatts.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gatt_util.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/gatt/btc_gattc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/a2dp/bta_av_co.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_media_task.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/a2dp/btc_avk.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/btc/profile/std/avrc/btc_avrc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_batchscan.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_cont_energy.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_sec.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_pm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_adv_filter.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_inq.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_dev.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_privacy.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_acl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_bgconn.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_gap.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_multi_adv.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_ble_addr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_sco.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btm/btm_devctl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btu/btu_hcif.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btu/btu_task.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/btu/btu_init.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gap/gap_ble.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gap/gap_conn.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gap/gap_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gap/gap_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_db.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_cl.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_attr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_sr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/att_protocol.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_auth.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/gatt/gatt_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/hcic/hciblecmds.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/hcic/hcicmds.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_ucd.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2cap_client.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_csm.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_fcr.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_link.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/l2cap/l2c_ble.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_db.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_discovery.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_server.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/sdp/sdp_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/p_256_curvepara.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/p_256_ecc_pp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_keys.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_br_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/aes.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_cmac.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/p_256_multprecision.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/smp/smp_l2c.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avct/avct_lcb.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avct/avct_l2c.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avct/avct_lcb_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avct/avct_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avct/avct_ccb.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_pars_ct.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_opt.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_bld_ct.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_pars_tg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_bld_tg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avrc/avrc_sdp.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_l2c.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_ccb.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_ccb_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_scb.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_msg.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_scb_act.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/avdt/avdt_ad.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/a2dp/a2d_sbc.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/stack/a2dp/a2d_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/utils/bt_utils.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_avrc_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_bt_main.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_bt_device.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_gap_bt_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_a2dp_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_gattc_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_blufi_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_gap_ble_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_gatts_api.o
+CC /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/bluedroid/api/esp_gatt_common_api.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/libbt.a
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/mg_build_info.c
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt'
+Target 'component-bt-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/bt/libbt.a'
+CC mg_build_info.o
+  GEN   /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/gen/build_info.c
+CC build_info.o
+AR /fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp/libmosapp.a
+make[1]: Leaving directory '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp'
+Target 'component-mosapp-build' responsible for '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp/libmosapp.a'
+/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/mosapp/libmosapp.a(ffi_exports.o):(.rodata.ffi_exports+0x7c): undefined reference to `getResetReason'
+collect2: error: ld returned 1 exit status
+make: *** [/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/higrow.elf] Error 1
+/opt/Espressif/esp-idf/make/project.mk:388: recipe for target '/fwbuild-volumes/1.26/apps/higrow/esp32/build_contexts/build_ctx_118995775/build/objs/higrow.elf' failed
+make: Leaving directory '/app'
+Error: exit status 2
