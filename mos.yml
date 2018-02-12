@@ -1,46 +1,51 @@
-author: mongoose-os
-description: A JS-enabled demo Mongoose OS firmware
-# arch: PLATFORM
+author: Luca Fabbri <luca@higrow.tech>
+description: HiGrow Plant Sensor
 version: 1.0
 manifest_version: 2017-05-18
+
 libs_version: ${mos.version}
 modules_version: ${mos.version}
 mongoose_os_version: ${mos.version}
 
 config_schema:
-  - ["mqtt.server", "iot.eclipse.org:1883"]
-  - ["i2c.enable", true]
-  - ["pins", "o", {title: "Pins layout"}]
-  - ["pins.led", "i", -1, {title: "LED GPIO pin"}]
-  - ["pins.button", "i", -1, {title: "Button GPIO pin"}]
-
-conds:
-  - when: mos.platform == "esp32"
-    apply:
-      config_schema:
-        - ["pins.led", 21]
-        - ["pins.button", 0]
-  - when: mos.platform == "esp8266"
-    apply:
-      config_schema:
-        - ["pins.led", 2]
-        - ["pins.button", 0]
-  - when: mos.platform == "cc3200"
-    apply:
-      config_schema:
-        - ["pins.led", 64]
-        - ["pins.button", 15]
-  - when: mos.platform == "cc3220"
-    apply:
-      config_schema:
-        - ["pins.led", 64]
-        - ["pins.button", 15]
-
-tags:
-  - js
-
+  - ["higrow", "o", {title: "HiGrow Sensor"}]
+  - ["higrow.deviceId", "s", "", {title: "DeviceId"}]
+  - ["higrow.temperature", "d", 0.0, {title: "Temperature"}]
+  - ["higrow.humidity", "d", 0.0, {title: "Humidity"}]
+  - ["higrow.light", "i", 0, {title: "Light"}]
+  - ["higrow.water", "i", 0, {title: "Water"}]
+  - ["higrow.connected", "b", false, {title: "Connected"}]
+  - ["wifi.sta.enable", false]
+  - ["wifi.sta.ssid", ""]
+  - ["wifi.sta.pass", ""]
+  - ["wifi.ap.enable", false]
+  - ["device.id", "Higrow_??????"]
+  - ["bt.dev_name", "Higrow of"]
+  
 filesystem:
   - fs
-
+  
+sources:
+  - src
+  
 libs:
-  - origin: https://github.com/mongoose-os-libs/js-demo-bundle
+  - origin: https://github.com/mongoose-os-libs/ca-bundle
+  - origin: https://github.com/mongoose-os-libs/bt-service-config
+  - origin: https://github.com/mongoose-os-libs/rpc-service-config
+  - origin: https://github.com/mongoose-os-libs/rpc-service-fs
+  - origin: https://github.com/mongoose-os-libs/rpc-uart
+  - origin: https://github.com/mongoose-os-libs/wifi
+  - origin: https://github.com/mongoose-os-libs/dht
+  - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/adc
+  
+tags:
+  - js
+  - hw
+  - higrow
+  - esp32
+  - ble
+  - plant
+  
+build_vars:
+ ESP_IDF_SDKCONFIG_OPTS: "${build_vars.ESP_IDF_SDKCONFIG_OPTS} CONFIG_ESP32_DEEP_SLEEP_WAKEUP_DELAY=500"
