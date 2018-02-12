@@ -1,0 +1,114 @@
+{
+  "device": {
+    "id": "Higrow_??????", 
+    "password": ""
+  }, 
+  "debug": {
+    "udp_log_addr": "", 
+    "level": 2, 
+    "filter": "", 
+    "stdout_uart": 0, 
+    "stderr_uart": 0, 
+    "factory_reset_gpio": -1, 
+    "mg_mgr_hexdump_file": "", 
+    "mbedtls_level": 0
+  }, 
+  "sys": {
+    "mount": {
+      "path": "", 
+      "dev_type": "", 
+      "dev_opts": "", 
+      "fs_type": "", 
+      "fs_opts": ""
+    }, 
+    "tz_spec": "", 
+    "wdt_timeout": 30, 
+    "pref_ota_lib": "", 
+    "esp32_adc_vref": 0
+  }, 
+  "conf_acl": "*", 
+  "bt": {
+    "enable": true, 
+    "dev_name": "Higrow of", 
+    "adv_enable": true, 
+    "scan_rsp_data_hex": "", 
+    "keep_enabled": false, 
+    "allow_pairing": true, 
+    "max_paired_devices": -1, 
+    "random_address": true, 
+    "gatts": {
+      "min_sec_level": 0, 
+      "require_pairing": false
+    }, 
+    "config_svc_enable": true
+  }, 
+  "mjs": {
+    "generate_jsc": true
+  }, 
+  "rpc": {
+    "enable": true, 
+    "max_frame_size": 4096, 
+    "max_queue_length": 25, 
+    "default_out_channel_idle_close_timeout": 10, 
+    "acl_file": "", 
+    "auth_domain": "", 
+    "auth_file": "", 
+    "ws": {
+      "enable": true, 
+      "server_address": "", 
+      "reconnect_interval_min": 1, 
+      "reconnect_interval_max": 60, 
+      "ssl_server_name": "", 
+      "ssl_ca_file": "", 
+      "ssl_client_cert_file": ""
+    }, 
+    "uart": {
+      "uart_no": 0, 
+      "baud_rate": 115200, 
+      "fc_type": 2, 
+      "wait_for_start_frame": true
+    }
+  }, 
+  "wifi": {
+    "sta": {
+      "enable": false, 
+      "ssid": "", 
+      "pass": "", 
+      "user": "", 
+      "anon_identity": "", 
+      "cert": "", 
+      "key": "", 
+      "ca_cert": "", 
+      "ip": "", 
+      "netmask": "", 
+      "gw": "", 
+      "nameserver": "", 
+      "dhcp_hostname": ""
+    }, 
+    "ap": {
+      "enable": false, 
+      "ssid": "Mongoose_??????", 
+      "pass": "Mongoose", 
+      "hidden": false, 
+      "channel": 6, 
+      "max_connections": 10, 
+      "ip": "192.168.4.1", 
+      "netmask": "255.255.255.0", 
+      "gw": "192.168.4.1", 
+      "dhcp_start": "192.168.4.2", 
+      "dhcp_end": "192.168.4.100", 
+      "trigger_on_gpio": -1, 
+      "disable_after": 0, 
+      "hostname": "", 
+      "keep_enabled": true
+    }
+  }, 
+  "higrow": {
+    "deviceId": "", 
+    "temperature": 0.0, 
+    "humidity": 0.0, 
+    "light": 0, 
+    "water": 0, 
+    "connected": false
+  }
+}

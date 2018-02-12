@@ -50,8 +50,8 @@ ADC.enable(SOILpin);
 let dht = DHT.create(DHTpin, DHT.DHT11);
 let deviceId = Cfg.get("higrow.deviceId");
 let connected = false;
-let getResetReason = ffi('int getResetReason(void)');
-let resetreason = getResetReason();
+//let getResetReason = ffi('int getResetReason(void)');
+//let resetreason = getResetReason();
 
 // Get Reset reason
 // from user_interface.h (expressif)
@@ -116,4 +116,3 @@ Event.addGroupHandler(Net.EVENT_GRP, function(ev, evdata, arg) {
     connected = true;
   }
 }, null);
-

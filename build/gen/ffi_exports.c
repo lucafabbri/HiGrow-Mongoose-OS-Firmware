@@ -24,7 +24,6 @@ int  fread(char *, int, int, void *);
 void  free(void *);
 void  free(void *);
 int  fwrite(char *, int, int, void *);
-int  getResetReason(void);
 int  hall_sens_read(void);
 double  log(double);
 void * malloc(int);
@@ -139,7 +138,6 @@ const struct mgos_ffi_export ffi_exports[] = {
   {"free", free},
   {"free", free},
   {"fwrite", fwrite},
-  {"getResetReason", getResetReason},
   {"hall_sens_read", hall_sens_read},
   {"log", log},
   {"malloc", malloc},
@@ -238,4 +236,4 @@ const struct mgos_ffi_export ffi_exports[] = {
   {"strdup", strdup},
   {"temprature_sens_read", temprature_sens_read},
 };
-const int ffi_exports_cnt = 113;
+const int ffi_exports_cnt = 112;
